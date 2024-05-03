@@ -1,8 +1,7 @@
 const userInput1 = window.prompt("parola 1")
 const userInput2 = window.prompt("parola 2")
 
-
-if (isNaN(parseInt(userInput1)) || isNaN(parseInt(userInput2))){
+if (!isNaN(Number(userInput1)) || !isNaN(Number(userInput2))){
     // ci sono numeri nella parola
     window.alert("Hai inserito dei numeri input non valido!")
 } else if(userInput1.length === 0 || userInput2.length === 0){
