@@ -13,13 +13,13 @@ inserisco il check della versione nel loop consapevole del peso della cosa per u
 definisco una costante numberOfInputRequests che di base varrà 10
 
 chiedo all'utente di scegliere la versione del codice che vuole inserendo un numero 1 o 2 nel prompt
-valido l'input altrimenti lo richiedo
+valido l'input altrimenti imposto la 1 come versione di Default
 salvo l'input in una costante codeVersion
 
 definisco una variabile resultSumm
 
-se la versione è la 2
-    definisco un array inputNumbers
+
+definisco un array inputNumbers che verrà usato solo dalla versione 2
 
 creo un ciclo for che vada da 1 a numerOfInputrequests compreso
 
